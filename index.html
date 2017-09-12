@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
- <head><title>Example web page</title></head>
+ <head>
+	<title>Example web page</title>
+	<link rel="stylesheet" type="text/css" href="avery.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="myScript.js"></script>
+ </head>
  <body>
-   <h1>Hello, World</h1>
-   <p>
+   <h1 id="h1">Hello, World</h1>
+   <p id="p1">
      WHERE IS MY ELEPHANTS!!
    </p>
-    <img src="https://github.com/kennyhong123/avery-webpage/elephants.jpg" alt="Elephants/">
+   <p id="p2" class="disappear">
+	this is a short paragraph
+	</p>
+	<p class="disappear">this is the third paragraph</p>
+	<p id="imagetoggler">Click to show image</P>
+    <img src="elephants.jpg" alt="Elephants/">
  </body>
 </html>

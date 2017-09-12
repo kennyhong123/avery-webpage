@@ -1,0 +1,14 @@
+body{
+	background-color: blue;
+}
+p{
+	font-size:200%;
+	color: pink;
+}
+img{
+	padding:25px;
+	border:25px solid red;
+	margin:50px;
+	display:none;
+	width:20%;
+}
